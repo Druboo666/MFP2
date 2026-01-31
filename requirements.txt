@@ -1,0 +1,26 @@
+fastapi
+uvicorn[standard]
+
+# zip=A uses aiohttp
+aiohttp
+aiofiles
+
+# settings
+pydantic-settings
+python-dotenv
+tzdata
+
+# parsing/extractors
+beautifulsoup4
+lxml
+dateparser
+xmltodict
+fake-headers
+curl_cffi
+
+# crypto + retries + utils
+pycryptodome
+tenacity
+cachetools
+tqdm
+psutil
